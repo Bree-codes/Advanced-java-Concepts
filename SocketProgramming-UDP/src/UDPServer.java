@@ -27,7 +27,7 @@ public class UDPServer {
                 System.out.println("Received from client [" + clientAddress.getHostAddress() + ":" + clientPort + "]: " + receivedMessage);
 
                 // Prepare data to send back to the client
-                String serverResponse = "Hello from server";
+                String serverResponse = "Hello from Server..";
                 byte[] sendData = serverResponse.getBytes();
 
                 // Create a DatagramPacket to send data to the client
@@ -39,3 +39,4 @@ public class UDPServer {
         }
     }
 }
+

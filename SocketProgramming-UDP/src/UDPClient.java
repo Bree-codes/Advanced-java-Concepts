@@ -13,7 +13,7 @@ public class UDPClient {
             InetAddress serverAddress = InetAddress.getByName(SERVER_ADDRESS);
 
             // Message to send to the server
-            String message = "Hello from client";
+            String message = "Hello from Client..";
             byte[] sendData = message.getBytes();
 
             // Create a DatagramPacket to send data to the server
